@@ -53,10 +53,10 @@ export default defineConfig({
   },
   
   sitemap: {
-    hostname: 'https://kakobuy-7zh.pages.dev',
+    hostname: 'https://bestkakobuyspreadsheet.github.io',
     transformItems(items) {
       return items.filter(item => {
-        const path = item.url.replace('https://kakobuy-7zh.pages.dev', '')
+        const path = item.url.replace('https://bestkakobuyspreadsheet.github.io', '')
         // Exclude internal files
         if (path === '/README' || path === '/article-matrix-template' || path === '/scripts/article-template') return false
         // Exclude media.md pages
@@ -72,7 +72,7 @@ export default defineConfig({
   },
 
   transformPageData(pageData) {
-    const hostname = 'https://kakobuy-7zh.pages.dev'
+    const hostname = 'https://bestkakobuyspreadsheet.github.io'
     const { frontmatter, filePath } = pageData
     const url = `${hostname}${pageData.relativePath.replace(/index\.md$/, '').replace(/\.md$/, '/')}`
     const ld = []
