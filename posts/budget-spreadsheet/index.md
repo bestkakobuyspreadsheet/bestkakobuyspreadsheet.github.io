@@ -5,9 +5,9 @@ description: "Build a stylish wardrobe on a budget with Kakobuy's best affordabl
 tags: ["kakobuy budget", "kakobuy budget spreadsheet", "affordable fashion guide", "budget batch picks", "value batch items"]
 ---
 
-# Kakobuy Budget Spreadsheet Guide: Affordable Fashion Picks
+# Kakobuy Budget Spreadsheet: Affordable Fashion Picks
 
-[← Back to Home](/) · [Browse Guides](/posts/)
+[← Back to Home](/) · [Browse](/posts/)
 
 ![Kakobuy Budget Spreadsheet affordable fashion picks guide by Kakobuy](/image/media-resources-budget-friendly-picks.png)
 
@@ -83,9 +83,9 @@ Get exclusive access to:
 
 ***
 
-### 🌐 Explore Other Guides
+###  Explore Other Resources
 
--  **[Spring Guide:](/posts/spring-style/)** [Light Layering & CleanFit Jackets](/posts/spring-style/)
-- ☀️ **[Summer Guide:](/posts/summer-style/)** [CityBoy Style & Heavyweight Tees](/posts/summer-style/)
-- 🍁 **[Autumn Guide:](/posts/autumn-style/)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style/)
-- ❄️ **[Winter Guide:](/posts/winter-style/)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style/)
+- 🌸 **[Spring:](/posts/spring-style/)** [Light Layering & CleanFit Jackets](/posts/spring-style/)
+- ☀️ **[Summer:](/posts/summer-style/)** [CityBoy Style & Heavyweight Tees](/posts/summer-style/)
+- 🍁 **[Autumn:](/posts/autumn-style/)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style/)
+- ❄️ **[Winter:](/posts/winter-style/)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style/)

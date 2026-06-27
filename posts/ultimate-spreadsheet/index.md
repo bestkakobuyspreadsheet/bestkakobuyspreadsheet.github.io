@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: "Ultimate Kakobuy Spreadsheet Guide: Complete Fashion Collection | Kakobuy"
+title: "Ultimate Kakobuy Spreadsheet: Complete Fashion Collection | Kakobuy"
 description: "The definitive Kakobuy spreadsheet guide covering all categories, styles, and price points. Your one-stop resource for building the perfect wardrobe from Kakobuy's complete collection."
 tags: ["kakobuy ultimate", "ultimate kakobuy spreadsheet", "complete fashion guide", "all-in-one batch picks", "definitive batch guide"]
 ---
 
 # Ultimate Kakobuy Spreadsheet Guide: Complete Fashion Collection
 
-[← Back to Home](/) · [Browse Guides](/posts/)
+[← Back to Home](/) · [Browse](/posts/)
 
 ![Ultimate Kakobuy Spreadsheet complete fashion collection guide by Kakobuy](/image/media-resources-ultimate-collection.png)
 
@@ -83,9 +83,9 @@ Get exclusive access to:
 
 ***
 
-### 🌐 Explore Other Guides
+### 🌐 Explore Other Resources
 
-- 🌸 **[Spring Guide:](/posts/spring-style/)** [Light Layering & CleanFit Jackets](/posts/spring-style/)
-- ☀️ **[Summer Guide:](/posts/summer-style/)** [CityBoy Style & Heavyweight Tees](/posts/summer-style/)
-- 🍁 **[Autumn Guide:](/posts/autumn-style/)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style/)
-- ❄️ **[Winter Guide:](/posts/winter-style/)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style/)
+-  **[Spring:](/posts/spring-style/)** [Light Layering & CleanFit Jackets](/posts/spring-style/)
+- ☀️ **[Summer:](/posts/summer-style/)** [CityBoy Style & Heavyweight Tees](/posts/summer-style/)
+- 🍁 **[Autumn:](/posts/autumn-style/)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style/)
+- ❄️ **[Winter:](/posts/winter-style/)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style/)

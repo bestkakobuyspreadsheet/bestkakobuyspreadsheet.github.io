@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: "Kakobuy Finds Spreadsheet Guide: Hidden Gems & Unique Picks | Kakobuy"
+title: "Kakobuy Finds Spreadsheet: Hidden Gems & Unique Picks | Kakobuy"
 description: "Uncover hidden gems and unique fashion finds in Kakobuy spreadsheets. Discover underrated batch picks, secret fashion treasures, and unique items that set your style apart."
 tags: ["kakobuy finds", "kakobuy finds spreadsheet", "hidden gem fashion", "underrated batch picks", "unique batch items"]
 ---
 
 # Kakobuy Finds Spreadsheet Guide: Hidden Gems & Unique Picks
 
-[← Back to Home](/) · [Browse Guides](/posts/)
+[← Back to Home](/) · [Browse](/posts/)
 
 ![Kakobuy Finds Spreadsheet hidden gems and unique fashion picks guide by Kakobuy](/image/media-resources-hidden-gems.png)
 
@@ -83,9 +83,9 @@ Get exclusive access to:
 
 ***
 
-###  Explore Other Guides
+### Explore Other Resources
 
-- 🌸 **[Spring Guide:](/posts/spring-style/)** [Light Layering & CleanFit Jackets](/posts/spring-style/)
-- ☀️ **[Summer Guide:](/posts/summer-style/)** [CityBoy Style & Heavyweight Tees](/posts/summer-style/)
--  **[Autumn Guide:](/posts/autumn-style/)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style/)
-- ️ **[Winter Guide:](/posts/winter-style/)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style/)
+-  **[Spring:](/posts/spring-style/)** [Light Layering & CleanFit Jackets](/posts/spring-style/)
+- ☀️ **[Summer:](/posts/summer-style/)** [CityBoy Style & Heavyweight Tees](/posts/summer-style/)
+- 🍁 **[Autumn:](/posts/autumn-style/)** [Earth Tones & Heavyweight Workwear](/posts/autumn-style/)
+- ️ **[Winter:](/posts/winter-style/)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style/)

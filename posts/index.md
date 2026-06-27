@@ -1,6 +1,6 @@
 ---
 layout: page
-title: All Guides
+title: All Resources
 description: Browse all Kakobuy spreadsheet guides and tutorials
 ---
 

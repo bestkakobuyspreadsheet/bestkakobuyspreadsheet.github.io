@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: "Kakobuy Spreadsheets 2026 Mens Autumn Fashion Guide: Earth Tones & Heavyweight Workwear | Kakobuy"
+title: "Kakobuy Spreadsheets 2026 Mens Autumn Fashion: Earth Tones & Heavyweight Workwear | Kakobuy"
 description: "Embrace the fall season with our autumn mens fashion guide. Explore earth tone palettes, heavyweight work shirts, vintage Americana style, and layering essentials for 2026."
 tags: ["kakobuy autumn 2026", "mens autumn fashion", "earth tone style", "workwear fashion", "autumn streetwear"]
 ---
 
-# Kakobuy Spreadsheets 2026 Mens Autumn Fashion Guide: Earth Tones & Heavyweight Workwear
+# Kakobuy Spreadsheets 2026 Mens Autumn Fashion: Earth Tones & Heavyweight Workwear
 
 [← Back to Home](/) · [Browse Guides](/posts/)
 
-![2026 Mens Autumn Fashion Guide - Earth Tones & Heavyweight Workwear by Kakobuy](./mens-fashion-guide.png)
+![2026 Mens Autumn Fashion - Earth Tones & Heavyweight Workwear by Kakobuy](./mens-fashion-guide.png)
 
 Autumn is the most versatile season for mens fashion. The crisp air invites layering, and the rich earth tone palette creates endless outfit possibilities. From vintage Americana to modern workwear, this season is all about texture, depth, and rugged sophistication.
 
@@ -83,7 +83,7 @@ Get exclusive access to:
 
 ### 🌐 Explore Other Seasonal Lookbooks
 
-- 🌸 **[Spring Guide:](/posts/spring-style)** [Light Layering & CleanFit Jackets](/posts/spring-style)
-- ☀️ **[Summer Guide:](/posts/summer-style)** [CityBoy Style & Heavyweight Tees](/posts/summer-style)
-- ❄️ **[Winter Guide:](/posts/winter-style)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style)
+- 🌸 **[Spring:](/posts/spring-style)** [Light Layering & CleanFit Jackets](/posts/spring-style)
+- ️ **[Summer:](/posts/summer-style)** [CityBoy Style & Heavyweight Tees](/posts/summer-style)
+- ❄️ **[Winter:](/posts/winter-style)** [Gorpcore Techwear & Premium Puffers](/posts/winter-style)
 
