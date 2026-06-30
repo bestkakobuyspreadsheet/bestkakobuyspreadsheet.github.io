@@ -20,7 +20,7 @@ body {
 }
 
 .VPContent {
-  padding-top: 20rem;
+  padding-top: 24rem;
 }
 
 /* ============================================
@@ -328,12 +328,27 @@ body {
    Doc Page Action Buttons (below h1 title)
    ============================================ */
 
+.VPDoc .content-container > .doc-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.VPDoc .content-container > .doc-top > h1 {
+  order: 1;
+  margin-bottom: 1.5rem;
+}
+
+.VPDoc .content-container > .doc-top > .doc-action-buttons-inline {
+  order: 2;
+}
+
 .doc-action-buttons-inline {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1rem 0 2rem;
+  margin: 0 0 2rem;
+  padding: 0 1rem;
 }
 
 .doc-btn {
@@ -521,12 +536,12 @@ article [class*="tag"],
 }
 
 .VPContent {
-  padding-top: 20rem;
+  padding-top: 24rem;
 }
 
 @media (max-width: 768px) {
   .VPContent {
-    padding-top: 8rem;
+    padding-top: 9.6rem;
   }
 }
 
