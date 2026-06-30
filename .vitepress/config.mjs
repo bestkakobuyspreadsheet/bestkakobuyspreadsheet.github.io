@@ -42,7 +42,7 @@ export default defineConfig({
     // Sidebar disabled - handled by CustomDocLayout
     sidebar: [],
     footer: {
-      message: 'Kakobuy Spreadsheet - Your trusted resource for cross-border e-commerce',
+      message: 'Kakobuy Spreadsheet - Your trusted resource for cross-border e-commerce | <a href="/sitemap.xml">Sitemap</a>',
       copyright: 'Copyright © 2026 Kakobuy Spreadsheet',
     },
     docFooter: {
