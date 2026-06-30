@@ -77,7 +77,25 @@ export default {
 
     const fullMarqueeContent = [...createMarqueeContent(), ...createMarqueeContent()]
 
+    const isDocPage = page.value.relativePath && page.value.relativePath.startsWith('posts/')
+
+    const docButtons = isDocPage ? h('div', { class: 'doc-action-buttons-inline' }, [
+      h('a', {
+        href: 'https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254',
+        target: '_blank',
+        rel: 'noopener noreferrer',
+        class: 'doc-btn doc-btn-primary',
+        'aria-label': 'Access Kakobuy Spreadsheet'
+      }, 'Access Kakobuy Spreadsheet'),
+      h('a', {
+        href: '/platforms/',
+        class: 'doc-btn doc-btn-secondary',
+        'aria-label': 'Browse Other Platforms'
+      }, 'Other Platforms')
+    ]) : null
+
     return h(DefaultTheme.Layout, null, {
+      'doc-top': () => docButtons,
       'layout-top': () => h('div', { class: 'marquee-container' }, [
         h('div', { class: 'marquee-track' }, fullMarqueeContent)
       ]),

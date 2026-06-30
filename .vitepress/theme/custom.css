@@ -325,6 +325,69 @@ body {
 }
 
 /* ============================================
+   Doc Page Action Buttons (below h1 title)
+   ============================================ */
+
+.doc-action-buttons-inline {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0 2rem;
+}
+
+.doc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  line-height: 1.4;
+}
+
+.doc-btn-primary {
+  background: var(--vp-c-brand-1);
+  color: #fff;
+}
+
+.doc-btn-primary:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(229, 57, 53, 0.3);
+  color: #fff;
+}
+
+.doc-btn-secondary {
+  background: transparent;
+  color: var(--vp-c-brand-1);
+  border: 2px solid var(--vp-c-brand-1);
+}
+
+.doc-btn-secondary:hover {
+  background: var(--vp-c-brand-1);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.doc-btn:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .doc-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* ============================================
    Related Posts Section
    ============================================ */
 
