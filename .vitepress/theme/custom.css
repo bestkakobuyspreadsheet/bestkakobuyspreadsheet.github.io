@@ -368,7 +368,7 @@ body {
 
 .doc-btn-primary {
   background: var(--vp-c-brand-1);
-  color: #fff;
+  color: #fff !important;
 }
 
 .doc-btn-primary:hover {
