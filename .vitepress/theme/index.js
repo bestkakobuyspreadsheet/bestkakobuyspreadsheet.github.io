@@ -44,6 +44,37 @@ function createMarqueeContent() {
 export default {
   ...DefaultTheme,
   enhanceApp({ app, router }) {
+    // Inject action buttons below h1 on doc pages
+    if (typeof window !== 'undefined') {
+      const injectDocButtons = () => {
+        // Remove existing buttons if any
+        document.querySelectorAll('.doc-action-buttons-inline').forEach(el => el.remove())
+
+        const h1 = document.querySelector('.VPDoc .content-container h1')
+        if (!h1) return
+
+        const buttonsDiv = document.createElement('div')
+        buttonsDiv.className = 'doc-action-buttons-inline'
+        buttonsDiv.innerHTML = `
+          <a href="https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254" target="_blank" rel="noopener noreferrer" class="doc-btn doc-btn-primary" aria-label="Access Kakobuy Spreadsheet">Access Kakobuy Spreadsheet</a>
+          <a href="/platforms/" class="doc-btn doc-btn-secondary" aria-label="Browse Other Platforms">Other Platforms</a>
+        `
+        h1.insertAdjacentElement('afterend', buttonsDiv)
+      }
+
+      // Handle initial page load
+      if (document.readyState === 'complete') {
+        injectDocButtons()
+      } else {
+        window.addEventListener('DOMContentLoaded', injectDocButtons)
+      }
+
+      // Handle SPA navigation
+      router.onAfterRouteChanged = () => {
+        setTimeout(injectDocButtons, 50)
+      }
+    }
+
     // Intercept Google Spreadsheet link on initial load
     if (typeof window !== 'undefined') {
       const interceptHeroLink = () => {
@@ -77,25 +108,7 @@ export default {
 
     const fullMarqueeContent = [...createMarqueeContent(), ...createMarqueeContent()]
 
-    const isDocPage = page.value.relativePath && page.value.relativePath.startsWith('posts/')
-
-    const docButtons = isDocPage ? h('div', { class: 'doc-action-buttons-inline' }, [
-      h('a', {
-        href: 'https://docs.google.com/spreadsheets/d/1Vs190yOAkrQ04LQb6l_Lnr_oTA0ny4CI3PJ_0B4_6zs/edit?gid=1903531254#gid=1903531254',
-        target: '_blank',
-        rel: 'noopener noreferrer',
-        class: 'doc-btn doc-btn-primary',
-        'aria-label': 'Access Kakobuy Spreadsheet'
-      }, 'Access Kakobuy Spreadsheet'),
-      h('a', {
-        href: '/platforms/',
-        class: 'doc-btn doc-btn-secondary',
-        'aria-label': 'Browse Other Platforms'
-      }, 'Other Platforms')
-    ]) : null
-
     return h(DefaultTheme.Layout, null, {
-      'doc-top': () => docButtons,
       'layout-top': () => h('div', { class: 'marquee-container' }, [
         h('div', { class: 'marquee-track' }, fullMarqueeContent)
       ]),
